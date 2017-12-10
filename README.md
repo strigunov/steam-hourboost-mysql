@@ -1,4 +1,4 @@
-# Steam HourBoost Script with MySQL-Support
+# Steam HourBoost Script with MySQL and SteamGuard/Sentry-Support
 This is a simple Steam Hourboost Script with MySQL- and SteamGuard/Sentry-Support written in NodeJS.
 
 If you find any bugs, please do not hesitate to report them to me.
