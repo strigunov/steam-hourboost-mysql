@@ -11,7 +11,7 @@ If you find any bugs, please do not hesitate to report them to me.
 # Requirements
 * MySQL Server
 * NodeJS
-* Node-Packages: steam, mysql, crypto
+* Node-Packages: steam, mysql
 
 # How to install
 
