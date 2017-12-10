@@ -5,12 +5,7 @@ const crypto = require('crypto');
 let accounts = [];
 const delay = 50;
 
-function MakeSha(bytes) {
-  var hash = crypto.createHash('sha1');
-  hash.update(bytes);
-  return hash.digest();
-}
-
+//MySQL Connection
 const db = mysql.createConnection({
   host: 'DBHOST',
   user: 'DBUSER',
@@ -31,6 +26,7 @@ db.query('SELECT * FROM hourboost', (err, rows) => {
 
   accounts = [];
   rows.forEach(row => {
+    //Error Log for debugging purposes
     //console.log(row);
     accounts.push([row.username, row.password, row.games, row.steamguard, row.sentry]);
   });
@@ -62,6 +58,7 @@ db.query('SELECT * FROM hourboost', (err, rows) => {
       };
 
       steamClient.on('logOnResponse', logonResp => {
+        //Error Log for debugging purposes
         //console.log(logonResp);
         if (logonResp.eresult == Steam.EResult.OK) {
           console.log('[STEAM] Logged successfully into account: %s.', account[0]);
@@ -95,6 +92,7 @@ db.query('SELECT * FROM hourboost', (err, rows) => {
       });
 
       steamClient.on('error', err => {
+        //Error Log for debugging purposes
         //console.log(err);
         console.log('[STEAM] ERROR - Login failed for account: %s', account[0]);
         if (Steam.EResult.InvalidPassword) {
