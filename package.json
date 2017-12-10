@@ -1,0 +1,21 @@
+{
+  "name": "steam-hourboost-mysql",
+  "version": "1.0.0",
+  "description": "Simple Steam Hourboost Script with MySQL-Support written in NodeJS",
+  "main": "client.js",
+  "dependencies": {
+    "crypto": "^1.0.1",,
+    "mysql": "^2.15.0",,
+    "steam": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Triniayo/steam-hourboost-mysql.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Triniayo (credits to Sapphyrus for the basescript)",
+  "license": "ISC"
+}
