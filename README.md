@@ -22,7 +22,7 @@ npm install .
 
 ### ✏️ Edit the 'client.js'-File
 
-```Enter the IP, Username, Password and Databse of your MySQL-Server.```
+```Enter the IP, Username, Password and Database of your MySQL-Server.```
 
 ### ▶️ Batch the .SQL-File into your MySQL-Database
 
