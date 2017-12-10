@@ -4,8 +4,7 @@
   "description": "Simple Steam Hourboost Script with MySQL-Support written in NodeJS",
   "main": "client.js",
   "dependencies": {
-    "crypto": "^1.0.1",,
-    "mysql": "^2.15.0",,
+    "mysql": "^2.15.0",
     "steam": "^1.4.0"
   },
   "repository": {
