@@ -16,27 +16,35 @@ If you find any bugs, please do not hesitate to report them to me.
 * node-crypto
 
 # How to install
+
 ```
 git clone https://github.com/Triniayo/steam-hourboost-mysql.git
 npm install .
 ```
 
 ### ✏️ Edit the 'client.js'-File
+
 ```Enter the IP, Username, Password and Databse of your MySQL-Server.```
 
-### ▶️ Batch in the .SQL-File into your MySQL-Database
+### ▶️ Batch the .SQL-File into your MySQL-Database
 
 ### ▶️ Run the Hourboost-Script
-```node client.js```
+
+```
+node client.js
+```
 
 ### ▶️ Run the Hourboost-Script in the background
-```npm i pm2
-pm2 start client.js```
+
+```
+npm i pm2
+pm2 start client.js
+```
 
 ### 🎓 You are done.
 
 ### 🤖 Authors
 - Triniayo
 
-###     ❤️   Credits
+### ❤️ Credits
 - [Sapphyrus](https://github.com/sapphyrus/nbhourboost)
